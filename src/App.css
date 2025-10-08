@@ -363,9 +363,10 @@ table {
   padding-top: 64px;
 }
 
-.about-us-info-container h2 {
+.about-us-info-container h2, .testimonials-section h2 {
   font-size: 48px;
   color: #03403a;
+  margin-bottom: 15px;
 }
 
 .about-us-info-container > p {
@@ -527,7 +528,7 @@ table {
   gap: 10px;
 }
 
-.form-header h2 {
+.form-header h2, .testimonials-section h4 {
   color: #03403a;
   font-size: 26px;
   margin: 10px 0 5px;
@@ -704,4 +705,17 @@ footer{
   border-radius: 8px;
   cursor: pointer;
   transition: background-color 0.3s;
+}
+
+.fa-star {
+  transition: color 0.2s ease;
+}
+
+.fa-star:hover {
+  transform: scale(1.1);
+  color: #ffc107;
+}
+
+.review-subtitle{
+  text-align:  center;
 }

@@ -39,7 +39,7 @@ const ContactForm = forwardRef((props, ref) => {
         <div className="form-header">
           <div className="form-title">
             <i className="fas fa-phone"></i>
-            <h2>Fale Conosco</h2>
+            <h2 className="fw-bold">Fale Conosco</h2>
           </div>
           <p>
             Quer saber mais sobre o nosso app, tirar dúvidas ou bater um papo

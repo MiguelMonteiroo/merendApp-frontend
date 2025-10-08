@@ -253,8 +253,7 @@ export default function App() {
             </div>
           </div>
 
-          <Testimonials/>
-          <p className="company-subtitle">Venha fazer parte do time MerendApp</p>
+          <Testimonials />
         </section>
 
         <ContactForm ref={contactRef} />
