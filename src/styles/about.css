@@ -1,0 +1,109 @@
+#about {
+  background-color: var(--text-color-primary);
+  width: 100%;
+  border-radius: 10px;
+
+  #about-box {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    /* text-align: center; */
+
+    & h2 {
+      font-size: var(--fs-xl);
+    }
+  }
+
+  & img[alt="Logo da merendApp grande"] {
+    width: 100%;
+  }
+}
+
+.about-mini-card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  background-color: var(--background-color);
+  border-radius: 10px;
+  & h2,
+  p,
+  div {
+    margin: 0;
+    padding: 0;
+  }
+  & .head {
+    display: flex;
+    width: 100%;
+    justify-content: space;
+    align-items: center;
+    color: #03403a;
+  }
+  & img {
+    width: 66px;
+  }
+  & > div {
+    display: flex;
+    /* border: solid; */
+    justify-content: center;
+    gap: 1rem;
+  }
+  padding: 1rem;
+}
+
+.about-us-icon-with-text-subtitle {
+  text-align: center;
+}
+.about-mini-card-wrap {
+  display: flex;
+  /* border: solid; */
+  flex-direction: column;
+}
+
+.about-us-info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.about-us-info-container h2,
+.testimonials-section h2 {
+  font-size: 48px;
+  color: #03403a;
+}
+
+.about-us-info-container > p {
+  font-size: 16px;
+  color: #03403a;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.about-us-info-card {
+  display: flex;
+  background-color: #03403a;
+  border-radius: 10px;
+  padding: 20px 60px;
+  justify-content: center;
+  gap: 40px;
+}
+
+.about-us-info-card p {
+  color: white;
+  font-size: 36px;
+}
+
+.about-us-info-card span {
+  display: block;
+  max-width: 180px;
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+@media (width >= 80em) {
+  .about-mini-card-wrap {
+    flex-direction: row;
+  }
+}

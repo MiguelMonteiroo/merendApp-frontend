@@ -1,0 +1,57 @@
+#trusters {
+  margin-bottom:5rem ;
+& h3{
+  font-size: var(--fs-2xl);
+  font-weight: var(--fw-md);
+}
+
+  & .company-card {
+    background-color: var(--text-color-primary);
+
+    & img {
+      display: inline-block;
+      height: 3rem;
+      object-fit: cover;
+    }
+  }
+
+  & > div {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    gap: 1rem;
+    margin-inline: auto;
+    /* border: solid red; */
+  }
+}
+
+.company-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #03403a;
+  padding: 12px;
+
+  background-color: transparent;
+  border-radius: 8px;
+}
+
+@media (width >= 80em) {
+  #trusters {
+  margin-bottom:4rem ;
+
+    & h3{
+  font-size: var(--fs-xl);
+
+    }
+    & .company-card {
+      padding: 16px 48px;
+
+      & img {
+        height: 3rem;
+        object-fit: cover;
+      }
+    }
+  }
+}

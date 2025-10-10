@@ -1,0 +1,84 @@
+.container-gab {
+  --max-width: 375px;
+  width: min(var(--max-width), 100% - var(--px-lg) * 2);
+  margin-inline: auto;
+}
+.px-lg {
+  padding-inline: var(--px-lg);
+}
+
+.py-base {
+  padding-block: var(--py-base);
+}
+.py-lg {
+  padding-block: var(--py-lg);
+}
+.py-xl {
+  padding-block: var(--py-xl);
+}
+.desktop-only {
+  display: none;
+}
+.hidden {
+  display: none;
+}
+.py-32 {
+  padding-block: 2rem;
+}
+.even-columns {
+  display: grid;
+  gap: 1rem;
+}
+.flex {
+  display: flex;
+}
+.items-center {
+  align-items: center;
+}
+.gap-1 {
+  gap: 1rem;
+}
+.gap-1\.5 {
+  gap: 1.5rem;
+}
+.grid {
+  display: grid;
+}
+.order01 {
+  order: -2;
+}
+.order02 {
+  order: -1;
+}
+
+
+.flex{
+  display: flex;
+  flex-direction: column;
+}
+
+@media (width >= 80em) {
+  .container-gab {
+    --max-width: 80rem;
+  }
+
+  .desktop-only {
+    display: initial;
+  }
+  .even-columns {
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+  }
+  .gap-1\.5 {
+    gap: 2rem;
+  }
+     .order01 {
+    order: initial;
+  }
+  .order02 {
+    order: initial;
+  }
+  .order03 {
+    order: initial;
+  }
+}

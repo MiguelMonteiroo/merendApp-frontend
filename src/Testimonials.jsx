@@ -1,7 +1,8 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Carousel } from "bootstrap";
 import ReviewForm from "./ReviewForm";
-import "./App.css";
+import "./styles/index.css";
+
 
 export default function Testimonials() {
   const carouselRef = useRef(null);
@@ -70,7 +71,8 @@ export default function Testimonials() {
                     <div className="card-body text-center">
                       <p className="card-text fs-5 fst-italic">“{t.text}”</p>
                       <div className="text-warning mb-2">
-                        {"★".repeat(t.grade)}{"☆".repeat(5 - t.grade)}
+                        {"★".repeat(t.grade)}
+                        {"☆".repeat(5 - t.grade)}
                       </div>
                       <h6 className="mt-2 mb-0 fw-bold">{t.name}</h6>
                       <small className="text-muted">{t.role}</small>

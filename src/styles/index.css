@@ -1,0 +1,24 @@
+@import "./App.css";
+@import "./header.css";
+@import "./utilities.css";
+@import "./global.css";
+@import "./hero.css";
+@import "./try-now.css";
+@import "./footer.css";
+@import "./trusters.css";
+@import "./about.css";
+@import "./about-cards.css";
+
+
+
+.form-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #03403a;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}

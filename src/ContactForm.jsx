@@ -1,5 +1,8 @@
+import "./styles/index.css";
+
+
+
 import React, { useRef, useState, forwardRef } from "react";
-import './App.css';
 
 const ContactForm = forwardRef((props, ref) => {
   const formRef = useRef(null);

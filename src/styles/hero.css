@@ -1,0 +1,82 @@
+#hero {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1.5rem;
+
+  & div {
+    width: 100%;
+    height: 100%;
+  }
+
+
+  & .kids-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.75rem;
+    border: solid var(--text-color-primary) 0.25rem;
+  }
+
+  & .hero-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--text-color-primary);
+    border-radius: 0.75rem;
+    padding-inline: 1rem;
+
+    & img {
+      width: 5rem;
+      height: 5rem;
+    }
+
+    & div:nth-child(1) {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      /* border: solid blue 2px; */
+      height: fit-content;
+
+      & p {
+        margin: 0;
+        font-size: var(--fs-xl);
+        font-weight: var(--fw-md);
+      }
+    }
+    & div:nth-child(2) {
+      /* border: black 4px solid; */
+      height: fit-content;
+      width: fit-content;
+      & p {
+        font-size: var(--fs-md);
+      }
+      & span {
+        font-size: var(--fs-base);
+      }
+    }
+  }
+}
+
+
+
+
+@media (width >= 80em) {
+  #hero {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 14.6875rem;
+    gap: 3rem;
+
+    & div:nth-child(1) {
+      order: initial;
+    }
+    & div:nth-child(2) {
+      order: initial;
+    }
+    & div:nth-child(3) {
+      order: initial;
+    }
+  }
+}
