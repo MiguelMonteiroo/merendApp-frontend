@@ -249,7 +249,7 @@ export default function App() {
                     <img src={company3} alt="2" />
                   </div>
                   <div className="company-card">
-                    <img src={company} alt="3" />
+                    <img src={company2} alt="3" />
                   </div>
                   <div className="company-card">
                     <img src={company4} alt="4" />
