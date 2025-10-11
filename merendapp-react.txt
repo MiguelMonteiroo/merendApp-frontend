@@ -1,0 +1,11 @@
+Integrantes:
+
+Gabriel Dantas Borges Soares
+Miguel De França Monteiro
+Isabele Maciel Viana de Freitas
+Matheus Maia da Silva Barbosa
+Maria Eduarda Santos Pedro 
+
+Link do Pitch Video: https://www.youtube.com/watch?v=RtJKhbwuYBk
+
+Link da Aplicação: https://merend-app-frontend.vercel.app/
