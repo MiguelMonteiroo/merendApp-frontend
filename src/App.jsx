@@ -37,8 +37,7 @@ export default function App() {
   };
 
   return (
-    <>
-      <body className="body-bg-color py-xl">
+      <div className="body-bg-color py-xl">
         <header id="header-top" className=" container-gab py-base">
           <img src={logo} alt="Logo" className="" />
           <nav className="header-list  desktop-only">
@@ -374,7 +373,6 @@ export default function App() {
           </div>
         </footer>
         {/* /////////////////////////////////////CSS já foi */}
-      </body>
-    </>
+      </div>
   );
 }
