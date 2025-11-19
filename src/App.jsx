@@ -55,7 +55,7 @@ export default function App() {
                 <a
                   target="_blank"
                   rel="noreferrer"
-                  href="https://www.youtube.com/watch?v=RtJKhbwuYBk"
+                  href="https://www.youtube.com/watch?v=QRiqwOsqhXs"
                 >
                   Video
                 </a>
@@ -314,7 +314,7 @@ export default function App() {
                   className="nav-link p-0 text-body-secondary"
                   target="_blank"
                   rel="noreferrer"
-                  href="https://www.youtube.com/watch?v=RtJKhbwuYBk"
+                  href="https://www.youtube.com/watch?v=QRiqwOsqhXs"
                 >
                   Video
                 </a>
